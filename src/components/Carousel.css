@@ -15,7 +15,7 @@
 }
 
 /* Efecto Letterbox - Bordes negros arriba y abajo (formato cinematográfico) */
-.carousel-letterbox-top,
+/* .carousel-letterbox-top,
 .carousel-letterbox-bottom {
   position: absolute;
   left: 0;
@@ -29,7 +29,7 @@
   );
   z-index: 5;
   pointer-events: none;
-}
+} */
 
 .carousel-letterbox-bottom {
   top: auto;
