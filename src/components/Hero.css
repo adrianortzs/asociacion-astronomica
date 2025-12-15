@@ -21,37 +21,34 @@
   flex-direction: column;
   align-items: center;
   gap: 25px;
-  text-align: center;
-  max-width: 800px;
+  text-align: justify;
+  max-width: 1000px;
 }
 
 .hero-title {
   color: rgba(255, 255, 255, 0.85);
   font-family: 'Cinzel', serif;
-  font-size: 32px;
+  font-size: 26px;
   font-weight: 500;
   letter-spacing: 1.25px;
   position: relative;
   z-index: 2;
   text-shadow: 0 0 15px rgba(84, 224, 255, 0.4);
-  line-height: 1.4;
 }
 
 .hero-subtitle {
   color: rgba(255, 255, 255, 0.8);
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 300;
-  line-height: 1.6;
-  max-width: 600px;
+  max-width: 800px;
 }
 
 .about-us-button {
-  background: linear-gradient(135deg, #54E0FF 0%, #3BA8C7 100%);
+  background: linear-gradient(135deg, #54E0FF 0%, #2FA3D6 100%);
   color: #0a0a1a;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
   padding: 15px 40px;
   border-radius: 50px;
   border: none;
@@ -94,7 +91,7 @@
   }
 
   .hero-title {
-    font-size: 24px;
+    font-size: 20px;
     letter-spacing: 1px;
   }
 

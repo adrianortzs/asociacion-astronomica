@@ -46,8 +46,6 @@ const Carousel = () => {
 
   return (
     <div className="carousel-container">
-      <div className="carousel-letterbox-top"></div>
-      <div className="carousel-letterbox-bottom"></div>
       <div className="carousel-overlay"></div>
       <div className="carousel-light-effect"></div>
       <div className="carousel-wrapper">

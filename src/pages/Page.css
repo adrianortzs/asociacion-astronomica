@@ -20,12 +20,12 @@
 }
 
 .section-title {
-  color: #54E0FF;
+  color: #2FA3D6;
   font-family: 'Cinzel', serif;
-  font-size: 36px;
+  font-size: 28px;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
   margin-bottom: 40px;
   text-shadow: 0 0 15px rgba(84, 224, 255, 0.4);
   text-align: center;
@@ -41,7 +41,7 @@
   transform: translateX(-50%);
   width: 100px;
   height: 3px;
-  background: linear-gradient(90deg, transparent, #54E0FF, transparent);
+  background: linear-gradient(90deg, transparent, #2FA3D6, transparent);
 }
 
 .legal-content {
@@ -49,7 +49,7 @@
 }
 
 .legal-subtitle {
-  color: #54E0FF;
+  color: #2FA3D6;
   font-family: 'Cinzel', serif;
   font-size: 24px;
   font-weight: 500;
@@ -60,15 +60,15 @@
 }
 
 .legal-subtitle-small {
-  color: rgba(84, 224, 255, 0.9);
-  font-size: 20px;
+  color: #3FAADB;
+  font-size: 22px;
   font-weight: 500;
   margin-top: 25px;
   margin-bottom: 12px;
 }
 
 .legal-text {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.8;
   margin-bottom: 20px;
   text-align: justify;
@@ -91,37 +91,6 @@
   border-top: 1px solid rgba(84, 224, 255, 0.2);
   text-align: center;
   font-style: italic;
-}
-
-@media (max-width: 768px) {
-  .page-container {
-    padding: 40px 15px;
-  }
-
-  .legal-container {
-    padding: 40px 25px;
-  }
-
-  .section-title {
-    font-size: 28px;
-  }
-
-  .legal-subtitle {
-    font-size: 20px;
-  }
-
-  .legal-subtitle-small {
-    font-size: 18px;
-  }
-
-  .legal-text {
-    font-size: 14px;
-    text-align: left;
-  }
-
-.legal-list {
-  margin-left: 20px;
-  }
 }
 
 .location-section {
@@ -167,6 +136,39 @@
 }
 
 @media (max-width: 768px) {
+  .page-container {
+    padding: 40px 15px;
+  }
+
+  .legal-container {
+    padding: 40px 25px;
+  }
+
+  .section-title {
+    font-size: 20px;
+  }
+
+  .legal-subtitle {
+    font-size: 18px;
+  }
+
+  .legal-subtitle-small {
+    font-size: 16px;
+  }
+
+  .legal-text {
+    font-size: 14px;
+  }
+
+  .legal-list {
+    margin-left: 20px;
+  }
+  
+  /* Igual demasiado pequeño */
+  .legal-list li {
+    font-size: 12px;
+  }
+
   .location-section {
     margin-top: 40px;
   }

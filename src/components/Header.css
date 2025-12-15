@@ -5,10 +5,9 @@
     padding: 20px 40px;
     background: rgba(10, 10, 26, 0.3);
     backdrop-filter: blur(5px);
-    position: sticky;
     top: 0;
     z-index: 100;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.3);
     transition: all 0.3s ease;
 }
 
@@ -21,6 +20,12 @@
 .logo-container {
   display: flex;
   align-items: center;
+  padding: 8px 16px;
+  border-radius: 999px;
+  background: rgba(35, 35, 75, 0.55);
+  opacity: 0.85;
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.16);
 }
 
 .logo {
@@ -47,11 +52,9 @@
 
 .menu-container {
   display: flex;
-  gap: 30px;
   font-size: 18px;
   font-weight: 400;
   letter-spacing: 1px;
-  text-transform: uppercase;
 }
 
 .menu-item {
@@ -70,7 +73,7 @@
   left: 0;
   width: 0;
   height: 2px;
-  background: #54E0FF;
+  background: #2FA3D6;
   transition: width 0.3s ease;
 }
 
@@ -96,7 +99,12 @@
   }
 
   .menu-container {
-    gap: 15px;
+    align-self: flex-end;
+    margin-right: 10px;
     font-size: 14px;
+  }
+
+  .logo {
+    width: 140px;
   }
 }

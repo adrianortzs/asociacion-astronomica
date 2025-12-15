@@ -53,7 +53,7 @@ const PoliticaPrivacidad = () => {
             <p className="legal-text">Implementamos medidas técnicas y organizativas apropiadas para proteger sus datos personales contra el acceso no autorizado, la pérdida, destrucción o alteración.</p>
             <h2 className="legal-subtitle">10. Cambios en esta Política</h2>
             <p className="legal-text">Nos reservamos el derecho de modificar esta Política de Privacidad. Cualquier cambio será publicado en esta página con la fecha de la última actualización.</p>
-            <p className="legal-text legal-update"><strong>Última actualización:</strong> {new Date().getFullYear()}</p>
+            <p className="legal-text legal-update">Última actualización: {new Date().getFullYear()}</p>
           </div>
         </div>
       </section>

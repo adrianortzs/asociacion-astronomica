@@ -44,7 +44,7 @@ const PoliticaCookies = () => {
             <p className="legal-text">Podemos actualizar esta Política de Cookies de vez en cuando. Le recomendamos que revise esta página periódicamente para estar informado sobre cómo utilizamos las cookies.</p>
             <h2 className="legal-subtitle">9. Más Información</h2>
             <p className="legal-text">Si tiene alguna pregunta sobre nuestra Política de Cookies, puede contactarnos en: asociacionastronomicajpm@gmail.com</p>
-            <p className="legal-text legal-update"><strong>Última actualización:</strong> {new Date().getFullYear()}</p>
+            <p className="legal-text legal-update">Última actualización: {new Date().getFullYear()}</p>
           </div>
         </div>
       </section>
