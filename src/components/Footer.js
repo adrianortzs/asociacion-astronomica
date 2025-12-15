@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="footer" id="contacto">
       <div className="footer-container">
         <div className="logo-container">
-          <Link to="/"><img src="/img/logo-sin-fondo.png" alt="Asociación Astronómica Juan Pérez Mercader" className="footer-logo"/></Link>
+          <Link to="/"><img src="/img/logo-sin-fondo.png" alt="Asociación Astronómica Juan Pérez Mercader" className="footer-logo" loading='eager'/></Link>
         </div>
         <div className="policies-container">
           <h3 className="footer-section-title">Información Legal</h3>
